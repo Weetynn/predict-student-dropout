@@ -38,6 +38,38 @@ Objectives:
     ▪️ Demonstrate the impact of hyperparameter tuning on model performance.
 
     ▪️ Provide recommendations for reducing dropout rates based on findings.
+    
+
+#### 📌 1.3 Scope of the Study
+
+    ▪️ Dataset features 4424 student records from 2008-2019.
+    
+    ▪️ Focus is on the fields of study represented in the dataset. 
+    
+    ▪️ Machine learning models used: XGBoost, Random Forest, and Decision Tree.
+    
+    ▪️ Evaluation metrics include accuracy, precision, recall, and AUC-ROC.
+
+    ▪️ Analysis limited to the R programming language and RStudio tools.
+
+---
+
+### CHAPTER 2: RELATED WORK
+
+#### 📌 2.1 Review of Student Dropout Prediction Models:
+
+    ▪️ Various studies have explored machine learning models for predicting student dropouts, with Random Forest frequently noted as a strong performer.
+    
+    ▪️ Timing of prediction is key; studies suggest optimal intervention should occur by the end of the first semester.
+    
+    ▪️ Features influencing dropout prediction differ by model, with socioeconomic, academic, and demographic factors commonly used.
+
+    ▪️ Comparison studies indicate that boosting algorithms like XGBoost and LightGBM often outperform classical models like Random Forest and Decision Tree.
+
+
+
+
+
 
 
 
