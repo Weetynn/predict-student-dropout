@@ -291,7 +291,7 @@ Objectives:
 
     ▪️ The study identified XGBoost as the most effective model for predicting student dropout, demonstrating high accuracy and consistent performance across evaluation metrics.
     
-    ▪️ Key predictors of dropout included academic performance indicators, such as curricular unit approvals, and financial factors like tuition fee status, allowing the model to pinpoint areas where institutions can focus support efforts to reduce dropout rates.
+    ▪️ Key predictors of dropout included specific academic performance indicators, notably the number of curricular units approved each semester, and financial factors, particularly the status of tuition fee payments. 
 
     ▪️ This study addressed gaps in prior research by implementing comprehensive hyperparameter tuning and providing detailed documentation for replicability.
 
