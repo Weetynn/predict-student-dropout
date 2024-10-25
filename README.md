@@ -11,7 +11,7 @@ By leveraging student demographics, academic performance, and socioeconomic data
 
 ### CHAPTER 1: OVERVIEW
 
-#### 📌 1.1 Significance of Study
+#### 📌 1.1 Significance of the Study
 
     ▪️ Predicting academic outcomes helps institutions identify struggling students early for timely intervention.
     
