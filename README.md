@@ -236,24 +236,35 @@ Objectives:
     
     ▪️ The model showed some limitations in further optimization.
 
+---
+
+### CHAPTER ^: MODEL EVALUATION
+ 
+#### 📌 6.1 Comparison Across Implemented Models
+
+    ▪️ XGBoost, Random Forest, and Decision Tree models were compared using key metrics: Accuracy, Precision, Recall, and AUC.
+    
+    ▪️ XGBoost achieved the highest overall accuracy and AUC, showing superior predictive power, especially for the dropout class.
+    
+    ▪️ Random Forest demonstrated solid performance but had some overfitting, particularly with training data.
+    
+    ▪️ Decision Tree showed lower accuracy and limited improvement despite tuning efforts, indicating constraints in model complexity.
+
+
+#### 📌 6.2 Comparisons Among Peer Models
+
+    ▪️ Results from this study were consistent with prior research, reaffirming that boosting algorithms (XGBoost) generally outperform classical models (Random Forest and Decision Tree) in dropout prediction.
+Each model’s strengths and limitations were analyzed to understand their application in educational data mining.
+    
+    ▪️ Each model’s strengths and limitations were analyzed to understand their application in educational data mining.
+
+    
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-5.4.2 Refined Decision Tree Model:
-Hyperparameter tuning had minimal impact, with accuracy remaining at 77.47%.
-The model showed some limitations in further optimization.
 
 
 
