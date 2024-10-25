@@ -286,16 +286,19 @@ Each model’s strengths and limitations were analyzed to understand their appli
 
     ▪️ Implementing early warning systems based on these models can enable proactive interventions to reduce dropout rates.
 
+---
 
+### CHAPTER 8: CONCLUSIONS
 
+    ▪️ The study identified XGBoost as the most effective model for predicting student dropout, demonstrating high accuracy and consistent performance across evaluation metrics.
+    
+    ▪️ Key predictors of dropout included academic performance indicators, such as curricular unit approvals, and financial factors like tuition fee status, allowing the model to pinpoint areas where institutions can focus support efforts to reduce dropout rates.
 
+    ▪️ This study addressed gaps in prior research by implementing comprehensive hyperparameter tuning and providing detailed documentation for replicability.
 
+    ▪️ Findings suggest that machine learning models can help institutions identify at-risk students early, supporting timely interventions that improve student retention and success rates.
 
-
-
-
-
-
+    ▪️ Future work could involve further hyperparameter tuning, model refinement through ensemble techniques, and additional feature engineering to uncover deeper predictive insights.
 
 
 
