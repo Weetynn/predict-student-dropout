@@ -238,7 +238,7 @@ Objectives:
 
 ---
 
-### CHAPTER ^: MODEL EVALUATION
+### CHAPTER 6: MODEL EVALUATION
  
 #### 📌 6.1 Comparison Across Implemented Models
 
@@ -258,8 +258,33 @@ Each model’s strengths and limitations were analyzed to understand their appli
     
     ▪️ Each model’s strengths and limitations were analyzed to understand their application in educational data mining.
 
+ ---
+
+### CHAPTER 7: ANALYSIS AND RECOMMENDATIONS
+ 
+#### 📌 7.1 Critical Evaluations of Model Outcomes
+
+    ▪️ XGBoost emerged as the most effective model for dropout prediction, with high accuracy and reliable performance across metrics.
+    
+    ▪️ Random Forest provided valuable insights but was prone to overfitting, requiring further refinement for optimal deployment.
+    
+    ▪️ Decision Tree was less effective due to limited model complexity and minimal improvement from hyperparameter tuning.
     
 
+  #### 📌 7.2 Surprises or Anomalies
+
+    ▪️ Some features, such as parental occupation and qualification, had minimal impact on dropout prediction, contrary to initial expectations.
+    
+    ▪️ Financial factors (e.g., tuition fee status) and academic performance (e.g., curricular unit approvals) were stronger predictors than demographic variables.
+    
+
+ #### 📌 7.3 Recommendations
+
+    ▪️ Institutions should prioritize monitoring financial and academic indicators, as these are critical predictors of dropout risk.
+    
+    ▪️ Regular model refinement and hyperparameter tuning are recommended to enhance model accuracy and adaptability over time.
+
+    ▪️ Implementing early warning systems based on these models can enable proactive interventions to reduce dropout rates.
 
 
 
