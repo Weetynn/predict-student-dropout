@@ -81,7 +81,7 @@ Objectives:
 
 #### 📌 3.1 Description of the Dataset
 
-    ▪️ The dataset includes 4424 student records from 2008-2019, covering various fields like IT, business, and nursing.
+    ▪️ The dataset includes 4424 student records from 2008-2019, covering various fields, specifically information technology, business management, social work, journalism, nursing, education, design, and agronomy.
     
     ▪️ Data is categorized into demographics, socioeconomics, macroeconomics, and academic performance, with a total of 37 attributes (including the target variable).
     
@@ -99,7 +99,7 @@ Objectives:
 
 ##### 3.2.2 Packages Utilized
 
-    ▪️ Key R packages include "reshape2", "rpart", "MLmetrics", "xgboost", "randomForest", "ggplot2", "pROC", "dplyr", "missForest", "DataExplorer", "caret", "ROCR", and "caTools" for tasks like data manipulation, model implementation, and evaluation.
+    ▪️ Key R packages include "reshape2", "rpart", "MLmetrics", "xgboost", "randomForest", "ggplot2", "pROC", "dplyr", "missForest", "DataExplorer", "caret", "ROCR", and "caTools" for tasks involving data manipulation, model implementation, and evaluation.
     
 
 ##### 3.2.3 Flowchart of Data Analysis Process
