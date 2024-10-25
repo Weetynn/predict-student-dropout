@@ -9,7 +9,7 @@ By leveraging student demographics, academic performance, and socioeconomic data
 
 ## 📋 Critical Discussion Points
 
-### CHAPTER 1: INTRODUCTION
+### CHAPTER 1: OVERVIEW
 
 #### 📌 1.1 Significance of Study
 
