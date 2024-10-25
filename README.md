@@ -137,19 +137,45 @@ Objectives:
     ▪️ Outliers were detected in some continuous variables (e.g., previous qualification grades), treated with mean adjustments for some columns.
 
 
+##### 4.1.2 Renaming of the Column Label
 
-    4.1.2 Renaming of the Column Label:
-
-Corrected a spelling error in the column label "Nacionality" to "Nationality" for clarity and consistency.
-4.1.3 Conversion of Variables into Factor Data:
-
-Converted attributes with mismatched data types (e.g., gender, target variable) into appropriate factor data types for accurate analysis and model compatibility.
-4.1.4 Detection and Treatment of Outliers:
-
-Identified outliers in continuous variables using the Interquartile Range (IQR) method, with a conservative IQR multiplier of 3.
-Treated outliers in key variables (e.g., previous qualification grade and admission grade) by replacing extreme values with mean values, ensuring data integrity for modeling.
+    ▪️ Corrected a spelling error in the column label "Nacionality" to "Nationality" for clarity and consistency.
 
 
+##### 4.1.3 Conversion of Variables into Factor Data
+
+    ▪️ Converted attributes with mismatched data types (e.g., gender, target variable) into appropriate factor data types for accurate analysis and model compatibility.
+
+
+##### 4.1.4 Detection and Treatment of Outliers
+
+    ▪️ Identified outliers in continuous variables using the Interquartile Range (IQR) method, with a conservative IQR multiplier of 3.
+    
+    ▪️ Treated outliers in key variables (e.g., previous qualification grade and admission grade) by replacing extreme values with mean values, ensuring data integrity for modeling.
+
+
+##### 4.1.5 Treatment of Problematic Entries
+
+    ▪️ Zero values in academic attributes were identified and treated as missing values, and imputation was performed using the missForest package.
+
+
+#### 📌 4.2 Exploratory Data Analysis (EDA)
+
+##### 4.2.1 Analysis on the Target Column
+
+    ▪️ Target class distribution was balanced enough, with no need for class balancing techniques.
+
+
+##### 4.2.2 Correlation Matrix
+
+    ▪️ A correlation heatmap was used to examine relationships between attributes.
+    
+    ▪️ Strong correlations were noted between curricular attributes (e.g., units approved) and the target variable, while parental qualifications showed minimal correlations.
+
+    ▪️ Potential multicollinearity between independent variables was identified, with suggestions for feature reduction or regularization techniques if needed.
+    
+    
+ 
 
 
 
@@ -159,15 +185,14 @@ Treated outliers in key variables (e.g., previous qualification grade and admiss
 
 
 
-4.1.5 Treatment of Problematic Entries:
-Zero values in academic attributes were identified and treated as missing values, and imputation was performed using the missForest package.
-4.2 Exploratory Data Analysis (EDA):
-4.2.1 Analysis on the Target Column:
-Target class distribution was balanced enough, with no need for class balancing techniques.
-4.2.2 Correlation Matrix:
-A correlation heatmap was used to examine relationships between attributes.
-Strong correlations were noted between curricular attributes (e.g., units approved) and the target variable, while parental qualifications showed minimal correlations.
-Potential multicollinearity between independent variables was identified, with suggestions for feature reduction or regularization techniques if needed.
+
+
+
+
+
+
+
+
 
 
 
