@@ -69,7 +69,7 @@ Objectives:
 
 #### 📌 2.2 Research Gap
 
-    ▪️ VLimited exploration of the impact of hyperparameter tuning in previous studies, which affects model optimization and performance.
+    ▪️ Limited exploration of the impact of hyperparameter tuning in previous studies, which affects model optimization and performance.
     
     ▪️ Lack of detailed documentation in existing literature regarding the hyperparameter tuning process, making replication and further research difficult.
     
