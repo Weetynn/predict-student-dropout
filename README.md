@@ -174,13 +174,86 @@ Objectives:
 
     ▪️ Potential multicollinearity between independent variables was identified, with suggestions for feature reduction or regularization techniques if needed.
     
-    
+---
+
+### CHAPTER 5: IMPLEMENTING THE MODEL 
  
+#### 📌 5.1 Preparing the Data for Modelling
+
+##### 5.1.1 Preparing the Target Variable
+
+    ▪️ Target classes (“Graduate,” “Enrolled,” “Dropout”) were recoded numerically (0, 1, 2) for compatibility with the XGBoost model.
+
+
+##### 5.1.2 Normalizing Numerical Attributes
+
+    ▪️ Standardization was applied to numerical attributes to enhance model performance, especially for XGBoost.
+
+
+##### 5.1.3 Splitting Data into Training and Test Sets
+
+    ▪️ Data was split into 70% training and 30% testing sets using the caTools package for evaluation purposes.
+
+
+#### 📌 5.2 Implementation of XGBoost Model
+
+##### 5.2.1 XGBoost Baseline Model
+
+    ▪️ The baseline XGBoost model achieved 80.11% accuracy on the test data, though a slight overfitting tendency was noted.
+
+
+##### 5.2.2 Refined XGBoost Model
+
+    ▪️ Hyperparameter tuning using Random Search led to a refined model with improved dropout prediction (AUC = 0.8922).
+    
+    ▪️ Significant features included second-semester curricular approvals and tuition fee status.
+
+
+#### 📌 5.3 Implementation of Random Forest Model
+
+##### 5.3.1 Random Forest Baseline Model
+
+    ▪️ The baseline model attained 77.32% accuracy on test data, with signs of overfitting.
+
+
+##### 5.3.2 Refined Random Forest Model:
+
+    ▪️ Hyperparameter tuning (Random Search and Grid Search) improved accuracy to 79.95%.
+    
+    ▪️ Curricular units and semester grades were highly significant in predicting dropout.
+
+
+#### 📌 5.4 Implementation of Decision Tree Model
+
+##### 5.4.1 Decision Tree Baseline Model
+
+    ▪️ The baseline Decision Tree model achieved 77.47% accuracy, with lower precision and recall for the “Enrolled” class.
+
+
+ ##### 5.4.2 Refined Decision Tree Model
+
+    ▪️ Hyperparameter tuning had minimal impact, with accuracy remaining at 77.47%.  
+    
+    ▪️ The model showed some limitations in further optimization.
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+5.4.2 Refined Decision Tree Model:
+Hyperparameter tuning had minimal impact, with accuracy remaining at 77.47%.
+The model showed some limitations in further optimization.
 
 
 
