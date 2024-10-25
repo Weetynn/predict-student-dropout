@@ -67,6 +67,14 @@ Objectives:
     ▪️ Comparison studies indicate that boosting algorithms like XGBoost and LightGBM often outperform classical models like Random Forest and Decision Tree.
 
 
+#### 📌 2.2 Research Gap
+
+    ▪️ VLimited exploration of the impact of hyperparameter tuning in previous studies, which affects model optimization and performance.
+    
+    ▪️ Lack of detailed documentation in existing literature regarding the hyperparameter tuning process, making replication and further research difficult.
+    
+    ▪️ This study aims to address these gaps by conducting a comprehensive hyperparameter optimization process and providing detailed documentation for transparency and replication.
+
 
 
 
