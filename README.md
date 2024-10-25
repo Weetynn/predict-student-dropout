@@ -67,7 +67,7 @@ Objectives:
     ▪️ Comparison studies indicate that boosting algorithms like XGBoost and LightGBM often outperform classical models like Random Forest and Decision Tree.
 
 
-#### 📌 2.2 Research Gap
+#### 📌 2.2 Research Gaps
 
     ▪️ Limited exploration of the impact of hyperparameter tuning in previous studies, which affects model optimization and performance.
     
@@ -104,7 +104,7 @@ Objectives:
 
 ##### 3.2.3 Flowchart of Data Analysis Process
 
-![Screenshot 2024-10-25 170343](https://github.com/user-attachments/assets/18720f8f-4eba-4d82-a098-36ded1a86f3d)
+![Screenshot 2024-10-25 180911](https://github.com/user-attachments/assets/257d3930-62b1-452e-996c-5e4d66714158)
 
     ▪️ The data analysis process involves data preprocessing, exploratory data analysis (EDA), model implementation, and evaluation.
     
@@ -218,7 +218,7 @@ Objectives:
     ▪️ The baseline model attained 77.32% accuracy on test data, with signs of overfitting.
 
 
-##### 5.3.2 Refined Random Forest Model:
+##### 5.3.2 Refined Random Forest Model
 
     ▪️ Hyperparameter tuning (Random Search and Grid Search) improved accuracy to 79.95%.
     
