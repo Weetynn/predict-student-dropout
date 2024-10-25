@@ -104,6 +104,8 @@ Objectives:
 
 ##### 3.2.3 Flowchart of Data Analysis Process
 
+![Screenshot 2024-10-25 170343](https://github.com/user-attachments/assets/18720f8f-4eba-4d82-a098-36ded1a86f3d)
+
     ▪️ The data analysis process involves data preprocessing, exploratory data analysis (EDA), model implementation, and evaluation.
     
 
