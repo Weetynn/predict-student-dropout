@@ -254,8 +254,7 @@ Objectives:
 #### 📌 6.2 Comparisons Among Peer Models
 
     ▪️ Results from this study were consistent with prior research, reaffirming that boosting algorithms (XGBoost) generally outperform classical models (Random Forest and Decision Tree) in dropout prediction.
-Each model’s strengths and limitations were analyzed to understand their application in educational data mining.
-    
+
     ▪️ Each model’s strengths and limitations were analyzed to understand their application in educational data mining.
 
  ---
