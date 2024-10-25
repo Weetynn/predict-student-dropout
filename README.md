@@ -99,7 +99,7 @@ Objectives:
 
 ##### 3.2.2 Packages Utilized
 
-    ▪️ Key R packages include "reshape2", "rpart", "MLmetrics", "xgboost", "randomForest", "ggplot2", and others for tasks like data manipulation, model implementation, and evaluation.
+    ▪️ Key R packages include "reshape2", "rpart", "MLmetrics", "xgboost", "randomForest", "ggplot2", "pROC", "dplyr", "missForest", "DataExplorer", "caret", "ROCR", and "caTools" for tasks like data manipulation, model implementation, and evaluation.
     
 
 ##### 3.2.3 Flowchart of Data Analysis Process
